@@ -5,9 +5,9 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture1.1", "lecture1.1.csproj", "{A070B9A6-9588-4141-9FE6-5F2125F7D8F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seminar1.1", "..\Seminar1.1\Seminar1.1.csproj", "{BFA91CDA-5945-4872-B895-A9DB07FBF8B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seminar1.1", "..\Seminar1.1\seminar1.1.csproj", "{BFA91CDA-5945-4872-B895-A9DB07FBF8B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz1.1", "..\dz1.1\dz1.1.csproj", "{94C721EC-65CD-44C7-BD0B-4765B76C1FE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dz1.1", "..\dz1.1\dz1.1.csproj", "{94C721EC-65CD-44C7-BD0B-4765B76C1FE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
