@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Point point = new Point();
+
+            Console.WriteLine($"x={point.x}, y={point.y}");
         }
+    }
+
+    struct Point
+    {
+        public float x; // default = 0
+        public float y; // default = 0
     }
 }

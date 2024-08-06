@@ -15,6 +15,15 @@
 
         Console.WriteLine($"sc1={sc1.someVariable}, sc2={sc2.someVariable}");
 
+        int c = 256;
+
+        checked
+        {
+        byte d = (byte)c;
+        Console.WriteLine(d);
+
+        }
+
 
     }
 
