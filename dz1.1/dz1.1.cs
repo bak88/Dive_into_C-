@@ -20,14 +20,17 @@
                         result = number1 + number2;
                         Console.WriteLine($"{number1} + {number2} = {result}");
                         return;
+
                     case "-":
                         result = number1 - number2;
                         Console.WriteLine($"{number1} - {number2} = {result}");
                         return;
+
                     case "*":
                         result = number1 * number2;
                         Console.WriteLine($"{number1} * {number2} = {result}");
                         return;
+
                     case "/":
                         if (number2 == 0)
                         {
@@ -39,6 +42,7 @@
                             Console.WriteLine($"{number1} / {number2} = {result}");
                             return;
                         }
+
                     default:
                         Console.WriteLine("Unable to perform operation"); // Невозможно выполнить операцию
                         return;
