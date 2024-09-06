@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seminar3.1", "..\seminar3.1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture4.1", "..\lecture4.1\lecture4.1.csproj", "{494C0481-F11A-47DB-A40A-3381AB820071}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminar4.1", "..\seminar4.1\seminar4.1.csproj", "{CD2D5998-405A-46CF-A973-64C615E74C7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seminar4.1", "..\seminar4.1\seminar4.1.csproj", "{CD2D5998-405A-46CF-A973-64C615E74C7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

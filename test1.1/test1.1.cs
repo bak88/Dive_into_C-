@@ -14,6 +14,8 @@
 
             Console.WriteLine(a.GetType());
 
+            Console.WriteLine(sizeof(int));
+
         }
     }
 }
