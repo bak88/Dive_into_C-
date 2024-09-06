@@ -63,11 +63,6 @@
 
             };
 
-            //var parents = Father.GetWifeAndHusband();
-
-            //parents[0]?.Print();
-            //parents[1]?.Print();
-
             Father.Married = Mother;
             Mother.Married = Father;
 

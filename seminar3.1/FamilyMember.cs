@@ -14,10 +14,10 @@ namespace seminar3._1
         public FamilyMember Mother { get; set; }
         public FamilyMember Father { get; set; }
         public FamilyMember Married { get; set; }
-        
 
 
-        
+
+
 
         public FamilyMember[] GetGrantMothers()
         {
@@ -34,11 +34,6 @@ namespace seminar3._1
             Console.WriteLine($"fullname={FullName}, gender={Gender}, age={Age}");
         }
 
-        public FamilyMember[] GetWifeAndHusband()
-        {
-            return new FamilyMember[] { Mother, Father };
-        }
-
         public void DisplayCloseRelatives()
         {
             if (Married != null)
@@ -47,7 +42,7 @@ namespace seminar3._1
             }
             else
             {
-                Console.WriteLine($"{FullName} has no spouse listed.");
+                Console.WriteLine($"{FullName} has no married");
             }
         }
 
