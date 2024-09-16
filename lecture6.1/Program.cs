@@ -181,11 +181,14 @@ namespace lecture6._1
 
 
 
-            int[] ints = { 1, 2, 3, 4 };
 
-            int aggre= ints.Aggregate ((i, m) => m * i);
 
-            Console.WriteLine(aggre);
+
+            //int[] ints = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //int aggre= ints.Aggregate ((i, m) => m * i);
+
+            //Console.WriteLine(aggre);
 
         }
     }
