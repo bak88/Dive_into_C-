@@ -45,15 +45,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dz5.1", "..\dz5.1\dz5.1.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture6.1", "..\lecture6.1\lecture6.1.csproj", "{9C646A2E-4EB1-434D-82BD-B3E001F8E614}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminar6.1", "..\seminar6.1\seminar6.1.csproj", "{6F356B2F-5E5E-463D-AD3C-56C23422B472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seminar6.1", "..\seminar6.1\seminar6.1.csproj", "{6F356B2F-5E5E-463D-AD3C-56C23422B472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminar6.2", "..\lecture6.2\seminar6.2.csproj", "{79959169-E5BB-4C25-BA6E-FBE77FAD857A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seminar6.2", "..\lecture6.2\seminar6.2.csproj", "{79959169-E5BB-4C25-BA6E-FBE77FAD857A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminar6.3", "..\seminar6.3\seminar6.3.csproj", "{51E4A69C-9BF7-44C7-A2BD-E592E7EA4C8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seminar6.3", "..\seminar6.3\seminar6.3.csproj", "{51E4A69C-9BF7-44C7-A2BD-E592E7EA4C8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminar6.4", "..\seminar6.4\seminar6.4.csproj", "{49B9F959-ACFD-42E0-B558-C84CBCA29363}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seminar6.4", "..\seminar6.4\seminar6.4.csproj", "{49B9F959-ACFD-42E0-B558-C84CBCA29363}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz6.1", "..\dz6.1\dz6.1.csproj", "{AF2BC455-103E-4001-AC1F-48F3EE557581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dz6.1", "..\dz6.1\dz6.1.csproj", "{AF2BC455-103E-4001-AC1F-48F3EE557581}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture7.1", "..\lecture7.1\lecture7.1.csproj", "{8F8217E8-CA91-42BC-8472-1C0C1D56E49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminar7.2", "..\seminar7.2\seminar7.2.csproj", "{F9CDD616-910D-4924-9851-FF0918AA29FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +169,14 @@ Global
 		{AF2BC455-103E-4001-AC1F-48F3EE557581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF2BC455-103E-4001-AC1F-48F3EE557581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF2BC455-103E-4001-AC1F-48F3EE557581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8217E8-CA91-42BC-8472-1C0C1D56E49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8217E8-CA91-42BC-8472-1C0C1D56E49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8217E8-CA91-42BC-8472-1C0C1D56E49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8217E8-CA91-42BC-8472-1C0C1D56E49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CDD616-910D-4924-9851-FF0918AA29FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CDD616-910D-4924-9851-FF0918AA29FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CDD616-910D-4924-9851-FF0918AA29FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CDD616-910D-4924-9851-FF0918AA29FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

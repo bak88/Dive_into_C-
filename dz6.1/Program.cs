@@ -9,7 +9,6 @@
         static void Main(string[] args)
         {
 
-
             int[] arr = { 100, 6, 7, 8, 9, 11, 100 }; 
 
             Array.Sort(arr);
@@ -39,25 +38,6 @@
                         right--;
                     }
                 }
-
-                //while (left < right)
-                //{
-                //    int sum = arr[i] + arr[left] + arr[right];
-                //    if (sum == target)
-                //    {
-                //        Console.WriteLine($" {arr[i]} + {arr[left]} + {arr[right]}");
-                //        return;
-                //    }
-                //    else if (sum < target)
-                //    {
-                //        left++;
-                //    }
-                //    else
-                //    {
-                //        right--;
-                //    }
-                //}
-
             }
             Console.WriteLine("Числа отсутствуют");
         }
