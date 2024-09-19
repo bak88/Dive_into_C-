@@ -1,20 +1,33 @@
-﻿namespace seminar7._2
+﻿using System.Threading.Channels;
+
+namespace seminar7._2
 {
+
+    //Описание: Создайте метод, который принимает список чисел и функцию(делегат Func), 
+    //выполняющую какую-либо операцию над числами и возвращающую результат.
+
     internal class Program
     {
-        private static void ClassWithEvents_SomeEventHandler(object sender, MyEventArgs args)
-        {
-            Console.WriteLine($" Send {sender}, with message {args.Message}");
-        }
         static void Main(string[] args)
         {
-            var classWithEvents = new ClassWithEvents();
+            List<int> list = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8 };
+            int res = CalcSum(list, x => x % 2 == 0, (x, y) => x + y, Console.WriteLine);
+        }
 
-            classWithEvents.SomeEvent += ClassWithEvents_SomeEventHandler;
+        static int CalcSum(List<int> list, Predicate<int> predicate, Func<int, int, int> func, Action<int> action)
+        {
+            int sum = 0;
 
-            classWithEvents.DoSomeWork();
-
-            Console.WriteLine("Ждем события ");
+            foreach (int i in list)
+            {
+                if(predicate(i))
+                {
+                    action(i);
+                    sum = func(i, sum);
+                }
+            }
+            Console.WriteLine(sum);
+            return sum;
         }
     }
 }
