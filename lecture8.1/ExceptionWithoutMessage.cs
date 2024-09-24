@@ -8,6 +8,9 @@ namespace lecture8._1
 {
     class ExceptionWithoutMessage : Exception
     {
+        public ExceptionWithoutMessage(string message, Exception ex): base(message, ex) 
+        {
 
+        }
     }
 }
