@@ -65,13 +65,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dz7.1", "..\dz7.1\dz7.1.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture8.1", "..\lecture8.1\lecture8.1.csproj", "{497D5EC8-D649-4F55-9F44-50B39B452810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lecture9.1", "..\lecture9.1\lecture9.1.csproj", "{57143179-A214-49A3-968F-AD71433E4C8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture9.1", "..\lecture9.1\lecture9.1.csproj", "{57143179-A214-49A3-968F-AD71433E4C8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminar8.1", "..\seminar8.1\seminar8.1.csproj", "{22640EEA-B38B-4E46-8F09-493F15BC329A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seminar8.1", "..\seminar8.1\seminar8.1.csproj", "{22640EEA-B38B-4E46-8F09-493F15BC329A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz6.2", "..\dz6.2\dz6.2.csproj", "{D012D060-4D63-4723-8F53-5E0559675253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dz6.2", "..\dz6.2\dz6.2.csproj", "{D012D060-4D63-4723-8F53-5E0559675253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz8.1", "..\dz8.1\dz8.1.csproj", "{3403163F-0FEF-4500-929B-30CF7E8DFEC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dz8.1", "..\dz8.1\dz8.1.csproj", "{3403163F-0FEF-4500-929B-30CF7E8DFEC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture10.1", "..\lecture10.1\lecture10.1.csproj", "{AD1F084B-80F2-401E-9613-735F61176DA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seminar10.1", "..\seminar10.1\seminar10.1.csproj", "{207F166B-F424-4953-89E1-B9A002452269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test2", "..\test2\test2.csproj", "{ACB65F39-E378-4162-BD8D-52FC9333E74A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture11.1_Xml", "..\lecture11.1\lecture11.1_Xml.csproj", "{45E72CD3-D240-4868-AF54-501370EADD31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lecture11.2_Json", "..\lecture11.2_Json\lecture11.2_Json.csproj", "{F656E724-7173-42C2-AEEA-706095375F9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +229,26 @@ Global
 		{3403163F-0FEF-4500-929B-30CF7E8DFEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3403163F-0FEF-4500-929B-30CF7E8DFEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3403163F-0FEF-4500-929B-30CF7E8DFEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1F084B-80F2-401E-9613-735F61176DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1F084B-80F2-401E-9613-735F61176DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1F084B-80F2-401E-9613-735F61176DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1F084B-80F2-401E-9613-735F61176DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207F166B-F424-4953-89E1-B9A002452269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207F166B-F424-4953-89E1-B9A002452269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207F166B-F424-4953-89E1-B9A002452269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207F166B-F424-4953-89E1-B9A002452269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB65F39-E378-4162-BD8D-52FC9333E74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB65F39-E378-4162-BD8D-52FC9333E74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB65F39-E378-4162-BD8D-52FC9333E74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB65F39-E378-4162-BD8D-52FC9333E74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E72CD3-D240-4868-AF54-501370EADD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E72CD3-D240-4868-AF54-501370EADD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E72CD3-D240-4868-AF54-501370EADD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E72CD3-D240-4868-AF54-501370EADD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F656E724-7173-42C2-AEEA-706095375F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F656E724-7173-42C2-AEEA-706095375F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F656E724-7173-42C2-AEEA-706095375F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F656E724-7173-42C2-AEEA-706095375F9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
