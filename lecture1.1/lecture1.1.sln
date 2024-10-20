@@ -85,6 +85,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lecture11.2_Json", "..\lect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminar11.1", "..\seminar11.1\seminar11.1.csproj", "{964FC241-B3E5-47D8-A457-C7C15FE0E1D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz11", "..\dz11\dz11.csproj", "{FEFF2B4E-64F3-42E9-9213-D25EFF809AF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{964FC241-B3E5-47D8-A457-C7C15FE0E1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{964FC241-B3E5-47D8-A457-C7C15FE0E1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{964FC241-B3E5-47D8-A457-C7C15FE0E1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFF2B4E-64F3-42E9-9213-D25EFF809AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFF2B4E-64F3-42E9-9213-D25EFF809AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFF2B4E-64F3-42E9-9213-D25EFF809AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFF2B4E-64F3-42E9-9213-D25EFF809AF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

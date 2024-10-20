@@ -102,9 +102,9 @@ namespace lecture11._2_Json
 
 
             //string json = """{"Name":"Jack","Surname":"Johns","Age":30}""";
-            //using(var stream = new MemoryStream(Encoding.UTF8.GetBytes(json)))
+            //using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(json)))
             //{
-            //   var person =  (Person?)JsonSerializer.Deserialize(stream, typeof(Person));
+            //    var person = (Person?)JsonSerializer.Deserialize(stream, typeof(Person));
             //    Console.WriteLine(person);
             //}
 
@@ -171,8 +171,8 @@ namespace lecture11._2_Json
 
 
 
-            NumAndStr numAndStr = new NumAndStr() { Num1 = 4, Str2 = "str" };
-            Console.WriteLine(JsonSerializer.Serialize(numAndStr));
+            //NumAndStr numAndStr = new NumAndStr() { Num1 = 4, Str2 = "str" };
+            //Console.WriteLine(JsonSerializer.Serialize(numAndStr));
 
 
 
