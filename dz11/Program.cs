@@ -12,10 +12,6 @@ namespace dz11
         public bool IsMarried { get; set; }
         public Child[] Children { get; set; }
 
-        public override string ToString()
-        {
-            return $"name={Name}, age={Age}, married={IsMarried}, children={Children}";
-        }
     }
 
     public class Child
@@ -46,47 +42,46 @@ namespace dz11
                            ]
             }";
 
-            Person? person = JsonToPerson(jsonString);
+            Person? person = JsonToPerson(jsonString);            
             var serialize = new XmlSerializer(person.GetType());
             serialize.Serialize(Console.Out, person);
+            
+        }
 
+        public static Person JsonToPerson(string jsonString)
+        {
+            string name;
+            int age;
+            bool isMarried;
+            Child[] children;
 
-
-            Person JsonToPerson(string jsonString)
+            using (JsonDocument doc = JsonDocument.Parse(jsonString))
             {
-                string name;
-                int age;
-                bool isMarried;
-                Child[] children;
+                JsonElement root = doc.RootElement;
+                name = root.GetProperty("Name").GetString();
+                age = root.GetProperty("Age").GetInt32();
+                isMarried = root.GetProperty("IsMarried").GetBoolean();
 
-                using (JsonDocument doc = JsonDocument.Parse(jsonString))
+                JsonElement childrenEl = root.GetProperty("Children");
+                children = new Child[childrenEl.GetArrayLength()];
+                int i = 0;
+                foreach (var child in childrenEl.EnumerateArray())
                 {
-                    JsonElement root = doc.RootElement;
-                    name = root.GetProperty("Name").GetString();
-                    age = root.GetProperty("Age").GetInt32();
-                    isMarried = root.GetProperty("IsMarried").GetBoolean();
-
-                    JsonElement childrenEl = root.GetProperty("Children");
-                    children = new Child[childrenEl.GetArrayLength()];
-                    int i = 0;
-                    foreach (var child in childrenEl.EnumerateArray())
-                    {
-                        string childName = child.GetProperty("Name").GetString();
-                        int childAge = child.GetProperty("Age").GetInt32();
-                        children[i++] = new Child { Name = childName, Age = childAge };
-                    }
-
+                    string childName = child.GetProperty("Name").GetString();
+                    int childAge = child.GetProperty("Age").GetInt32();
+                    children[i++] = new Child { Name = childName, Age = childAge };
                 }
-                Person person = new Person()
-                {
-                    Name = name,
-                    Age = age,
-                    IsMarried = isMarried,
-                    Children = children
-                };
 
-                return person;
             }
+            Person person = new Person()
+            {
+                Name = name,
+                Age = age,
+                IsMarried = isMarried,
+                Children = children
+            };
+
+            return person;
         }
     }
 }
